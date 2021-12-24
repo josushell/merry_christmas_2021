@@ -8275,7 +8275,7 @@ section.u-image,
   cursor: pointer;
 }
 .u-sheet {
-  position: relative;
+  position: absolute;
   width: 1140px;
   margin: 0 auto;
 }
@@ -31695,7 +31695,7 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
+  .u-footer {
     min-height: 99px;
   }
 }

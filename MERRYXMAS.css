@@ -1,18 +1,29 @@
 .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/rodion-kutsaev-ySNkCkdKyTY-unsplash.jpg");
+  position: absolute;
   background-position: 180% 100%;
+}
+.text{
+  width: max-content;
+  height: max-content;
+  padding: 100;
 }
 
 .u-section-1 .u-sheet-1 {
+  position: absolute;
   min-height: 789px;
 }
 
 .u-section-1 .u-text-1 {
+  position: absolute;
   font-size: 10.625rem;
   line-height: 0.9;
   font-weight: 700;
   animation-duration: 2250ms;
   margin: 453px 79px 29px 0;
+}
+.u-section-1 .text{
+  position: relative;
 }
 
 @media (max-width: 1199px) {
@@ -54,7 +65,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 447px;
+    min-height: 100px;
   }
 
   .u-section-1 .u-text-1 {
